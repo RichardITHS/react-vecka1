@@ -15,6 +15,8 @@ import FunctionalPropsChildren from './component/FunctionalPropsChildren'
 import ClassComponentProps from './component/ClassComponentProps'
 //Class component with state
 import StateCounterClass from './component/StateCounterClass'
+//Functional component with state
+import StateCounterFunction from './component/StateCounterFunction'
 
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
         <ClassComponentProps text="är en props i en class component"/>
         {/* Class component with state */}
         <StateCounterClass/>
+        {/* Function component with state */}
+        <StateCounterFunction/>
 
 
 
