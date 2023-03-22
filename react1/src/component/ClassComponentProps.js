@@ -6,3 +6,4 @@ class ClassComponentProps extends Component {
     }
 }
 export default ClassComponentProps
+

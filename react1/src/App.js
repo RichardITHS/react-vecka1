@@ -13,6 +13,8 @@ import FunctionalProps2 from './component/FunctionalProps2'
 import FunctionalPropsChildren from './component/FunctionalPropsChildren'
 //Class component with props
 import ClassComponentProps from './component/ClassComponentProps'
+//Class component with state
+import StateCounterClass from './component/StateCounterClass'
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
         <FunctionalPropsChildren first="Richard" last="Carlsson" children="Jag är ett barn"/>
         {/* Class component with props */}
         <ClassComponentProps text="är en props i en class component"/>
+        {/* Class component with state */}
+        <StateCounterClass/>
 
 
 
