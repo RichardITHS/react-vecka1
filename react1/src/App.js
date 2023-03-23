@@ -17,6 +17,8 @@ import ClassComponentProps from './component/ClassComponentProps'
 import StateCounterClass from './component/StateCounterClass'
 //Functional component with state
 import StateCounterFunction from './component/StateCounterFunction'
+//Functional component with event
+import FunctionEvent from './component/FunctionEvent'
 
 
 function App() {
@@ -37,6 +39,8 @@ function App() {
         <StateCounterClass/>
         {/* Function component with state */}
         <StateCounterFunction/>
+        {/* Function component with event */}
+        <FunctionEvent/>
 
 
 
